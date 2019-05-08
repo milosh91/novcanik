@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/fixed.css">
+
+    <title>Index</title>
+  </head>
+  <body data-spy="scroll" data-target="#navbarResponsive">
+    
+  <!----- Start home section ----->
+  <div id="home">
+    
+  <!------ Start Nav bar ------->
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="">My wallet</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">home</a>
+        </li>
+        <li class="nav-item">
+      
+          <a class="nav-link" href="#login">login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#how to use">how to use</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">about</a>
+        </li>   
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">contact</a>
+        </li>   
+      </ul>
+    </div>  
+    
+  </nav>
+
+  <!------ End Nav bar ------->
+
+  <!------ Start Lending Section ------->
+  <div class="Lending">
+      <div class="home-wrap">
+          <div class="home-inner">
+            
+          </div>
+      </div>
+  </div>
+
+  <div class="caption text-center">
+      <h1>Welcom to My Wallet</h1>
+      <h3>Uz Wallet sistem imajte uvid u svoja primanja i svoj rashod</h3>
+  </div>
+  <!------ End Lending Section ------->
+
+  </div>
+  
+  <!----- End home section ------>
+
+  <!----- Start Login section ----->
+  <div id="login" class="offset">
+    <div class="col-12 narow text-center">
+      
+      <h3>Ukoliko imate vec kreiran svoj nalog ulogujete se</h3>
+      <a class="btn btn-secondary btn-md" data-toggle="modal" data-target="#loginModal" href="">login in</a>
+      
+
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center" id="loginModalLabel">Login in</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="loginInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="loginInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="loginInputPassword1">Password</label>
+    <input type="password" class="form-control" id="loginInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="loginCheck1">
+    <label class="form-check-label" for="loginCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!-------------- End Modal --------------> 
+      <h3>Ukoliko nemate svoj nalog kreirajte ga</h3>
+       <a class="btn btn-secondary btn-md" data-toggle="modal" data-target="#singinModal" href="">Sing in</a>
+       <!-- Modal -->
+<div class="modal fade" id="singinModal" tabindex="-1" role="dialog" aria-labelledby="singinModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center" id="singinModalLabel">Singin in</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="singinInputEmail1">Username</label>
+    <input type="username" class="form-control" id="singinInputUsername" placeholder="Username">
+  </div>
+  <div class="form-group">
+    <label for="singinInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="singinInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="singinInputPassword1">Password</label>
+    <input type="password" class="form-control" id="singinInputPassword1" placeholder="Password">
+    <small id="passwordHelp" class="form-text text-muted">Password must be length 8 character and including a number and a lowercase letter.</small>
+  </div>
+  <div class="form-group">
+    <label for="singinInputRepeatPassword1">Repeat Password</label>
+    <input type="password" class="form-control" id="singinInputRepeatPassword1" placeholder="Repeat Password">
+  </div>
+   <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!-------------- End Modal --------------> 
+    </div>
+  </div>
+
+  <!----- End Login section ------>
+  
+
+  <!----- Start how to use section ----->
+  <div id="how to use" class="offset how_to_use">
+    <!------ Start Jumbotron ------>
+    <div class="jumbotron">
+      <div class="narow">
+        <div class="col-12">
+          <h3 class="heading"> How to use</h3>
+          <div class="heading-underline"></div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+              <div class="how">
+                <img src="images/procenti.png">
+                <h4>Definisanje procenta</h4>
+                <p>U ovom polju mozete definisati vrednost procenta, za odvajanje u kasicu od svakog priliva</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="how">
+                <img src="images/prihodi.png">
+                <h4>Unosenje rashoda ili prihoda</h4>
+                <p>Odabirom znaka "+" ili "-" definisete da li unosite pruhod ili rashod, a u polju opis definisete koja je vrsta rashod ili prihod, dok u polje "value" definisete vrednost prihoda ili rashoda</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="how">
+                <img src="images/iscitavanje.png">
+                <h4>Pregledi rashoda ili prihoda</h4>
+                <p>u delu iscitavanja stanja mozete iscitati sve prihode, rashode ili sumarno odabirom jedne od tri ponudjenje vrednosti</p>
+              </div>
+            </div>
+        </div>
+        <!-------- end row ------->
+      </div>
+    <!------ end narow ------>
+    </div>
+
+    <!------ End Jumbotron ------>
+
+  </div>
+
+  <!----- End how to use section ------>
+
+ <!----- Start about section ----->
+  <div id="about" class="offset">
+    <div class="fixed-background">
+        <div class="row-dark">
+          <div class="col-12">
+            <h3 class="heading">About my wallet</h3>
+            <div class="heading-underline"></div>
+          </div>
+          <div class="section col-12">
+            <p>Wallet sistem omogucuje korisniku vodjenje i pracenje
+              finansijskog stanja, tako sto evidentira sve promjene svog
+              finansijskog stanja i tako ostvaruje uvid u isti.</p>
+          </div>
+          <div class="section col-12">
+            <h5>Prihodi i rashodi</h5>
+            <p>Prihodi i rashodi su osnova rada sistema, a zasnivaju se na
+evidentiranju svih finansijskih promjena</p>
+          </div>
+          <div class="section col-12">
+            <h5>Stednja, oporezivanje i ciljevi</h5>
+            <p>Stednja, oporezivanje ili ciljevi predstavljaju plansko
+              izdvajanje sredstava na virtuelni stedni racun</p>
+          </div>
+        </div>
+      
+
+        <div class="fixed-wrap">
+          <div class="fixed">
+            
+          </div>
+        </div>
+    </div>
+      
+      <!------ End fixed-background section ------------> 
+  </div>
+
+  <!----- End about section ------>
+
+ <!----- Start Contact section ----->
+  <div id="contact" class="offset">
+    <footer>
+      <div class="row justify-content-center">
+        <div class="col-md-5 text-center">
+          <div class="row">
+            <div class="logo col-6" style="text-align: right; padding-right: .2rem">
+              <img src="images/logo.png" style="height: 2rem">
+            </div>
+            <div class="col-6" style="text-align: left; padding-left: .2rem; padding-top: auto">
+              <p>My Wallet</p>
+            </div>
+          </div>
+          <p><strong>Contact info:</strong></p>
+          <p>mobile number: 064/014-70-51</p>
+          <p>e-mail: ckoopy_91@live.com</p>
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+          
+        </div>
+        <hr class="socket">
+        &copy: Ckoopy 2019
+      </div>
+    </footer>
+  </div>
+
+  <!----- End Contact section ------>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

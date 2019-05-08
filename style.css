@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body {
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	color: #505962
+}
+.offset:before {
+	display: block;
+	content: "";
+	height: 4rem;
+	margin-top: -4rem;
+}
+
+
+/* ------- Navigation bar ------------- */
+
+.navbar {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background-color: rgba(245, 245, 245, 0.8)!important;
+}	
+.navbar-brand img{
+	height: 2rem;
+}
+.navbar-nav li {
+	padding-right: .7rem
+}
+.navbar-light .navbar-nav .nav-link {
+	color: gray;
+	padding-top: .8rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #189582;
+}
+
+
+
+/* ---------------- Landing page --------------*/
+
+.home-inner {
+	background-image: url("images/wallet.jpg");
+}
+
+.caption {
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 38%;
+	z-index: 1;
+}
+
+.caption h1 {
+	font-size: 3.8rem;
+	font-weight: 700;
+	letter-spacing: .3rem;
+	padding-bottom: 1rem;
+}
+
+.caption h3 {
+	font-size: 2rem;
+	padding-bottom: 1.6rem
+}
+
+
+/* -------------- Login Section ------------------*/
+
+.narow {
+	width: 75%;
+	margin: 1.5rem auto;
+	padding-top: 2.5rem;
+}
+.narow h3 {
+	font-size: 1.8rem;
+}
+.btn-secondary {
+	border-width: medium;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	padding: .6rem 1.6rem;
+	margin: 1rem;
+}
+.btn-secondary:hover {
+	background-color: #189582;
+	border-color: #189582;
+}
+
+/* ------------how to use section -----------------*/
+
+.jumbotron {
+	margin-bottom: 0;
+	padding: 2rem 0 3.5rem;
+	border-radius: 0;
+}
+h3.heading {
+	font-size: 1.9rem;
+	font-weight: 700;
+	text-transform: uppercase; 
+	text-align: center;
+	margin-bottom: 1.9rem;
+}
+
+.heading-underline {
+	width: 3rem;
+	height: .2rem;
+	background-color: #1ebba3;
+	margin: 0 auto 2rem;
+}
+
+.how img {
+	width: 50%;
+	border-radius: 50%;
+	margin-bottom: 2rem;
+}
+
+.how h4 {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	padding-bottom: .4rem;
+}
+
+.how p {
+	font-size: 1.1rem;
+}
+
+/* -------------- 	About ----------*/
+.fixed {
+	background-image: url("images/wallet_icon.png");
+	z-index: -1;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.section {
+	font-weight: 1.1rem;
+	text-align: center;
+}
+
+.section h5{
+	font-size: 1.3rem;
+	font-weight: 700;
+	text-transform: uppercase; 
+	text-align: center;
+	color: white;
+}
+
+.section p {
+	
+
+}
+
+.row-dark {
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	padding: 7rem 2rem;
+}
+
+
+
+/*------------------- Contact -----------------------*/
+
+footer {
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background-color: rgb(235, 235, 235);
+	padding: 2rem 0 2rem;
+}
+
+footer img {
+	height: 3rem; 
+}
+
+.socket {
+	width: 100%;
+	height: .2rem;
+	margin-top: 2rem;
+	margin-bottom: 0;
+}
+
+
+/* ---------------- Media --------------------*/
+
+@media (max-width: 767px) { 
+
+.caption h1 {
+	font-size: 2.3rem;
+	letter-spacing: .1rem;
+	padding-bottom: 0.2rem;
+}
+
+.caption h3 {
+	font-size: 1.2rem;
+	padding-bottom: 1.2rem
+}
+.btn-secondary {
+	font-size: .8rem;
+	padding: .5rem 1rem;
+}
+.narow h3 {
+	font-size: 1.1rem;
+}
+.how img {
+	max-width: 20%;
+	margin-bottom: .8rem;
+}
+}
+
+/*============= COURSE SECTION =============*/
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
